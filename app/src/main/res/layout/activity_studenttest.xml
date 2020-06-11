@@ -85,12 +85,15 @@
             android:alpha="0"
             android:background="@drawable/shadow"
             android:ems="10"
+            android:fontFamily="@font/aclonica"
             android:gravity="top"
             android:hint="Question"
             android:inputType="textCapSentences|textMultiLine"
             android:minHeight="150dp"
             android:padding="10dp"
-            android:textSize="17sp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -146,15 +149,15 @@
         android:id="@+id/button8"
         android:layout_width="119dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:alpha="0"
         android:background="@drawable/rounded_button"
         android:fontFamily="@font/aclonica"
         android:onClick="desConfirm"
-        android:text="CONFIRMdes"
+        android:text="CONFIRM"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -181,6 +184,8 @@
         android:inputType="textCapSentences|textMultiLine"
         android:minHeight="150dp"
         android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -207,37 +212,49 @@
             android:id="@+id/option1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
             android:paddingBottom="13dp"
             android:paddingTop="13dp"
             android:text="option1"
-            android:textSize="20sp" />
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
             android:paddingBottom="13dp"
             android:paddingTop="13dp"
             android:text="option1"
-            android:textSize="20sp" />
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/option3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
             android:paddingBottom="13dp"
             android:paddingTop="13dp"
             android:text="option1"
-            android:textSize="20sp" />
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/option4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
             android:paddingBottom="13dp"
             android:paddingTop="13dp"
             android:text="option1"
-            android:textSize="20sp" />
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
 
     </RadioGroup>
